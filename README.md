@@ -1,3 +1,2 @@
-# Phone-Compare 图片展示
+# Phone-Compare 
 
-![手机对比](https://imgur.com/WUzfH2z)
