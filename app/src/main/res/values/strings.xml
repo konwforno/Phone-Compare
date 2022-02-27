@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bottom">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_detail">ScrollingActivity</string>
+    <string name="发布时间">发布时间</string>
+    <string name="价格">价格</string>
+    <string name="型号">型号</string>
+    <string name="手机类型">手机类型</string>
+    <string name="操作系统">操作系统</string>
+    <string name="CPU">CPU</string>
+    <string name="CPU频率">CPU频率</string>
+    <string name="GPU">GPU</string>
+    <string name="运行内存">运行内存</string>
+    <string name="机身容量">机身容量</string>
+    <string name="电池容量">电池容量</string>
+    <string name="充电">充电</string>
+    <string name="屏幕类型">屏幕类型</string>
+    <string name="屏幕大小">屏幕大小</string>
+    <string name="屏幕分辨率">屏幕分辨率</string>
+    <string name="屏幕刷新率">屏幕刷新率</string>
+    <string name="摄像头类型">摄像头类型</string>
+    <string name="后置摄像头">后置摄像头</string>
+    <string name="后置摄像头2">后置摄像头2</string>
+    <string name="后者摄像头3">后置摄像头3</string>
+    <string name="后者摄像头4">后置摄像头4</string>
+    <string name="前置摄像头">前置摄像头</string>
+    <string name="title_activity_compare">ScrollingActivity</string>
+    <string name="对比">对比</string>
+    <string name="主页">主页</string>
+    <string name="用户">用户</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="登录">登录</string>
+    <string name="邮箱">邮箱</string>
+    <string name="对比一">对比一</string>
+    <string name="对比二">对比二</string>
+
+
+</resources>

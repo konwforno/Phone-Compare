@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_huawei"
+            android:title="华为" />
+        <item
+            android:id="@+id/nav_samsung"
+            android:title="三星" />
+        <item
+            android:id="@+id/nav_xiaomi"
+            android:title="小米" />
+        <item
+            android:id="@+id/nav_oneplus"
+            android:title="一加" />
+        <item
+            android:id="@+id/nav_iphone"
+            android:title="苹果" />
+        <item
+            android:id="@+id/nav_oppo"
+            android:title="Oppo" />
+        <item
+            android:id="@+id/nav_vivo"
+            android:title="Vivo" />
+    </group>
+</menu>

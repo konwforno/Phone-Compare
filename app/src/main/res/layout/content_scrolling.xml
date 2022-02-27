@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".Detail"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/型号" />
+
+                <TextView
+                    android:id="@+id/f3"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s3"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow
+                android:layout_height="39dp"
+                >
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:padding="3dip"
+                    android:text="@string/价格" />
+
+                <TextView
+                    android:id="@+id/f1"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s1"
+                    android:layout_width="318dp"
+                    android:layout_height="match_parent"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/发布时间" />
+
+                <TextView
+                    android:id="@+id/f2"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s2"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/手机类型" />
+
+                <TextView
+                    android:id="@+id/f4"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s4"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/操作系统" />
+
+                <TextView
+                    android:id="@+id/f5"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s5"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/CPU" />
+
+                <TextView
+                    android:id="@+id/f6"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s6"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/CPU频率" />
+
+                <TextView
+                    android:id="@+id/f7"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s7"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/GPU" />
+
+                <TextView
+                    android:id="@+id/f8"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s8"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/运行内存" />
+
+                <TextView
+                    android:id="@+id/f9"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s9"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/机身容量" />
+
+                <TextView
+                    android:id="@+id/f10"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s10"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/电池容量" />
+
+                <TextView
+                    android:id="@+id/f11"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s11"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/充电" />
+
+                <TextView
+                    android:id="@+id/f12"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s12"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/屏幕类型" />
+
+                <TextView
+                    android:id="@+id/f13"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s13"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/屏幕大小" />
+
+                <TextView
+                    android:id="@+id/f14"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s14"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/屏幕分辨率" />
+
+                <TextView
+                    android:id="@+id/f15"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s15"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/屏幕刷新率" />
+
+                <TextView
+                    android:id="@+id/f16"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s16"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/摄像头类型" />
+
+                <TextView
+                    android:id="@+id/f17"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s17"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/后置摄像头" />
+
+                <TextView
+                    android:id="@+id/f18"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s18"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/后置摄像头2" />
+
+                <TextView
+                    android:id="@+id/f19"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s19"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/后者摄像头3" />
+
+                <TextView
+                    android:id="@+id/f20"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s20"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/后者摄像头4" />
+
+                <TextView
+                    android:id="@+id/f21"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s21"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/前置摄像头" />
+
+                <TextView
+                    android:id="@+id/f22"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:id="@+id/s22"
+                    android:padding="3dip" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

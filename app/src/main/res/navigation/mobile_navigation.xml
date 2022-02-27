@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myapplication.ui.bottom_home.BottomHomeFragment"
+        android:label="@string/主页"
+        tools:layout="@layout/fragment_bottom_home" />
+
+
+    <fragment
+        android:id="@+id/navigation_compare"
+        android:name="com.example.myapplication.ui.compare.CompareFragment"
+        android:label="@string/对比"
+        tools:layout="@layout/fragment_compare" />
+
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.myapplication.ui.user.UserFragment"
+        android:label="@string/用户"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/nav_huawei"
+        android:name="com.example.myapplication.ui.huawei.HuaWeiFragment"
+        android:label="华为"
+        tools:layout="@layout/fragment_huawei" />
+
+
+    <fragment
+        android:id="@+id/nav_samsung"
+        android:name="com.example.myapplication.ui.samsung.SamsungFragment"
+        android:label="samsung"
+        tools:layout="@layout/fragment_samsung" />
+
+
+    <fragment
+        android:id="@+id/nav_xiaomi"
+        android:name="com.example.myapplication.ui.xiaomi.XiaomiFragment"
+        android:label="小米"
+        tools:layout="@layout/fragment_xiaomi" />
+
+    <fragment
+        android:id="@+id/nav_oneplus"
+        android:name="com.example.myapplication.ui.oneplus.OneplusFragment"
+        android:label="一加"
+        tools:layout="@layout/fragment_oneplus" />
+
+    <fragment
+        android:id="@+id/nav_oppo"
+        android:name="com.example.myapplication.ui.oppo.OppoFragment"
+        android:label="Oppo"
+        tools:layout="@layout/fragment_oppo" />
+
+    <fragment
+        android:id="@+id/nav_vivo"
+        android:name="com.example.myapplication.ui.vivo.VivoFragment"
+        android:label="Vivo"
+        tools:layout="@layout/fragment_vivo" />
+    <fragment
+        android:id="@+id/nav_iphone"
+        android:name="com.example.myapplication.ui.iphone.IphoneFragment"
+        android:label="苹果"
+        tools:layout="@layout/fragment_iphone" />
+    <fragment android:id="@+id/history1"
+        android:name="com.example.myapplication.History"
+        android:label="历史记录"
+        tools:layout="@layout/fragment_history"/>
+</navigation>
